@@ -1,0 +1,29 @@
+.cart figure img {
+  width: 96%;
+  margin: 7px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.cart figure {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.cart figure:hover .cart figure img {
+  transform: scale(1.3);
+}
+.cart {
+  border: 1px solid gainsboro;
+}
+
+.mealsDetails {
+  margin: 0px 10px;
+}
+
+.mealsDetails h4 {
+  margin: 0px;
+}
+
+.mealsDetails button {
+  margin-bottom: 5px;
+}
